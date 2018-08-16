@@ -5,9 +5,18 @@
  * @format
  * @flow
  */
-
+import * as firebase from 'firebase';
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBmgqLrNp3X_qUGewwSt7ZkNph8k70woIQ",
+  authDomain: "trafapp-c9c42.firebaseapp.com",
+  projectId: "trafapp-c9c42",
+  databaseURL: "https://trafapp-c9c42.firebaseio.com",
+  storageBucket: "trafapp-c9c42.appspot.com"
+};
+const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
