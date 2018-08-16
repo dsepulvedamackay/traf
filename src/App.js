@@ -14,7 +14,8 @@ const firebaseConfig = {
   databaseURL: "https://trafapp-c9c42.firebaseio.com",
   storageBucket: "trafapp-c9c42.appspot.com"
 };
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+export const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 // Pantallas para usuario autetificado
 export const UserAuth = TabNavigator(
