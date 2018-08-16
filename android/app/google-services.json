@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "852240813371",
+    "firebase_url": "https://trafapp-c9c42.firebaseio.com",
+    "project_id": "trafapp-c9c42",
+    "storage_bucket": "trafapp-c9c42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852240813371:android:f6c7e83703a31c46",
+        "android_client_info": {
+          "package_name": "com.traf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852240813371-02hmcesn2sj7p9vfb6vbo8e71ve91rnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCII5acUQupzs-ZTynZoNL6c1xCrCLZ2ns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
